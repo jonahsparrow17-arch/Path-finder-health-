@@ -1,0 +1,85 @@
+{
+  "version": "1.0.0",
+  "scenarios": [
+    {
+      "id": "demo_physical",
+      "name_en": "Scenario 1: Musculoskeletal Pain (Physical Pathway)",
+      "name_ta": "காட்சி 1: மூட்டு மற்றும் உடல் வலி (உடல் வழித்தடம்)",
+      "expected_classification": "PHYSICAL",
+      "expected_risk": "MODERATE",
+      "description": "Fictional case of persistent right knee pain and morning stiffness following recreational gardening.",
+      "intake": {
+        "physical_symptoms": ["joint_pain", "stiffness", "muscle_ache"],
+        "mental_symptoms": [],
+        "duration": "1_to_4_weeks",
+        "severity": "moderate",
+        "impact": "moderate",
+        "free_text": "I have been experiencing aching pain in my right knee and morning stiffness for the past three weeks. It makes climbing stairs somewhat difficult."
+      }
+    },
+    {
+      "id": "demo_mental",
+      "name_en": "Scenario 2: Persistent Low Mood (Mental Pathway)",
+      "name_ta": "காட்சி 2: தொடர் மனச்சோர்வு (மன நல வழித்தடம்)",
+      "expected_classification": "MENTAL",
+      "expected_risk": "MODERATE",
+      "description": "Fictional case of prolonged sadness, loss of enthusiasm in hobbies, and low energy.",
+      "intake": {
+        "physical_symptoms": [],
+        "mental_symptoms": ["persistent_sadness", "loss_of_interest", "low_energy", "sleep_disturbance"],
+        "duration": "1_to_6_months",
+        "severity": "moderate",
+        "impact": "moderate",
+        "free_text": "Over the past six weeks, I have lost interest in my usual hobbies and feel constantly drained and down without a clear reason."
+      }
+    },
+    {
+      "id": "demo_overlapping",
+      "name_en": "Scenario 3: Stress-Induced Somatic Symptoms (Overlapping)",
+      "name_ta": "காட்சி 3: மனஅழுத்தம் மற்றும் உடல் அறிகுறிகள் (இருவழித்தடம்)",
+      "expected_classification": "OVERLAPPING",
+      "expected_risk": "MODERATE",
+      "description": "Fictional case presenting with tension headaches, stomach discomfort, and pronounced work anxiety.",
+      "intake": {
+        "physical_symptoms": ["tension_headache", "stomach_discomfort", "fatigue"],
+        "mental_symptoms": ["nervousness", "racing_thoughts", "difficulty_relaxing"],
+        "duration": "1_to_4_weeks",
+        "severity": "moderate",
+        "impact": "moderate",
+        "free_text": "I get persistent tension headaches and stomach knots whenever my anxiety spikes regarding deadlines, and I have trouble falling asleep."
+      }
+    },
+    {
+      "id": "demo_insufficient",
+      "name_en": "Scenario 4: Minimal Evidence (Insufficient Evidence)",
+      "name_ta": "காட்சி 4: போதிய சான்றின்மை (சான்றுகள் போதாது)",
+      "expected_classification": "INSUFFICIENT_EVIDENCE",
+      "expected_risk": "LOW",
+      "description": "Fictional case with vague, non-specific expression and absent duration or functional impact.",
+      "intake": {
+        "physical_symptoms": [],
+        "mental_symptoms": [],
+        "duration": null,
+        "severity": "mild",
+        "impact": "none",
+        "free_text": "I just feel slightly tired today."
+      }
+    },
+    {
+      "id": "demo_urgent",
+      "name_en": "Scenario 5: Acute Chest Pressure & Dyspnea (Urgent Safety Gate)",
+      "name_ta": "காட்சி 5: கடுமையான நெஞ்சு வலி (அவசர பாதுகாப்பு வாயில்)",
+      "expected_classification": null,
+      "expected_risk": "URGENT",
+      "description": "Fictional case presenting with sudden crushing chest pain radiating to the left arm and severe shortness of breath.",
+      "intake": {
+        "physical_symptoms": ["crushing_chest_pain", "chest_pain_radiating"],
+        "mental_symptoms": [],
+        "duration": "less_than_1_week",
+        "severity": "severe",
+        "impact": "severe_disruption",
+        "free_text": "Crushing chest pain radiating to my left arm and jaw with cold sweat and severe difficulty breathing!"
+      }
+    }
+  ]
+}

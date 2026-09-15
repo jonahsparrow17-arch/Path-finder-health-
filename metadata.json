@@ -1,0 +1,10 @@
+{
+  "name": "PathFinder Health",
+  "description": "Explainable AI-assisted health screening and care-navigation system using structured screening evidence and a deterministic classification engine.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

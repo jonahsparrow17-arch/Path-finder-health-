@@ -1,0 +1,245 @@
+{
+  "version": "1.0.0",
+  "hash_algorithm": "SHA-256",
+  "last_updated": "2026-09-15T00:00:00Z",
+  "rules": [
+    {
+      "rule_id": "RF-001",
+      "version": "1.0",
+      "enabled": true,
+      "category": "cardiovascular",
+      "severity": "urgent",
+      "action": "urgent",
+      "description": "Crushing chest pain radiating to arm, neck, or jaw, or acute cardiac distress",
+      "keywords_en": [
+        "crushing chest pain",
+        "chest pain radiating",
+        "heart attack",
+        "chest pressure radiating to arm",
+        "pressure in chest and left arm",
+        "chest tightness with shortness of breath",
+        "crushing pressure in chest"
+      ],
+      "keywords_ta": [
+        "நெஞ்சு வலி",
+        "மார்பு வலி",
+        "நெஞ்சில் அதிக வலி",
+        "மாரடைப்பு",
+        "இதய வலி"
+      ],
+      "keywords_mixed": [
+        "nenju vali",
+        "marbu vali",
+        "chest pain perusu",
+        "nenjula heavy weight",
+        "heart attack mathiri"
+      ],
+      "structured_symptoms": [
+        "crushing_chest_pain",
+        "chest_pain_radiating",
+        "suspected_cardiac_arrest"
+      ]
+    },
+    {
+      "rule_id": "RF-002",
+      "version": "1.0",
+      "enabled": true,
+      "category": "respiratory",
+      "severity": "urgent",
+      "action": "urgent",
+      "description": "Acute severe respiratory distress or inability to breathe",
+      "keywords_en": [
+        "cannot breathe",
+        "can't breathe",
+        "severe difficulty breathing",
+        "gasping for air",
+        "blue lips",
+        "choking",
+        "throat closing up",
+        "unable to speak full words"
+      ],
+      "keywords_ta": [
+        "மூச்சுத்திணறல்",
+        "மூச்சு விட முடியவில்லை",
+        "மூச்சு முட்டுகிறது",
+        "தொண்டை அடைப்பு"
+      ],
+      "keywords_mixed": [
+        "moochu vidamudiyala",
+        "moochu thinaral",
+        "breath panna mudiyala",
+        "moochu muttuthu"
+      ],
+      "structured_symptoms": [
+        "severe_respiratory_distress",
+        "unable_to_breathe",
+        "throat_swelling"
+      ]
+    },
+    {
+      "rule_id": "RF-003",
+      "version": "1.0",
+      "enabled": true,
+      "category": "neurological",
+      "severity": "urgent",
+      "action": "urgent",
+      "description": "Acute neurological deficit, facial drooping, one-sided weakness, or speech loss (stroke signs)",
+      "keywords_en": [
+        "facial drooping",
+        "face drooping",
+        "slurred speech",
+        "sudden numbness one side",
+        "one side of body paralyzed",
+        "stroke",
+        "sudden loss of vision",
+        "sudden severe headache worst of life",
+        "thunderclap headache"
+      ],
+      "keywords_ta": [
+        "பக்கவாதம்",
+        "முகம் ஒரு பக்கமாக இழுக்கிறது",
+        "பேச்சு குழறுகிறது",
+        "கை கால் மரத்துப்போதல்"
+      ],
+      "keywords_mixed": [
+        "stroke mathiri",
+        "mugam orupakkam izhukkuthu",
+        "kai kaal thimir",
+        "speech kuluruthu",
+        "pakkavatham"
+      ],
+      "structured_symptoms": [
+        "facial_droop",
+        "one_sided_weakness",
+        "sudden_speech_loss",
+        "thunderclap_headache"
+      ]
+    },
+    {
+      "rule_id": "RF-004",
+      "version": "1.0",
+      "enabled": true,
+      "category": "psychiatric_emergency",
+      "severity": "urgent",
+      "action": "urgent",
+      "description": "Active suicidal ideation with intent or plan, severe acute self-harm emergency",
+      "keywords_en": [
+        "kill myself",
+        "want to end my life",
+        "suicidal thoughts with plan",
+        "thinking of suicide",
+        "commit suicide",
+        "end it all today",
+        "harm myself immediately",
+        "overdose on purpose"
+      ],
+      "keywords_ta": [
+        "தற்கொலை",
+        "உயிரை மாய்த்துக் கொள்ள",
+        "சாக வேண்டும்",
+        "வாழ பிடிக்கவில்லை சாக போறேன்"
+      ],
+      "keywords_mixed": [
+        "tharkolai",
+        "suicide panna poren",
+        "saaga poren",
+        "uyira vida poren"
+      ],
+      "structured_symptoms": [
+        "active_suicidal_intent",
+        "acute_self_harm"
+      ]
+    },
+    {
+      "rule_id": "RF-005",
+      "version": "1.0",
+      "enabled": true,
+      "category": "trauma_hemorrhage",
+      "severity": "urgent",
+      "action": "urgent",
+      "description": "Severe uncontrolled bleeding or catastrophic physical trauma",
+      "keywords_en": [
+        "severe uncontrolled bleeding",
+        "gushing blood",
+        "coughing up large amounts of blood",
+        "vomiting blood heavily",
+        "deep wound pulsing blood",
+        "massive hemorrhage"
+      ],
+      "keywords_ta": [
+        "நிற்காத ரத்தப்போக்கு",
+        "அதிக ரத்தம் வெளியேறுகிறது",
+        "ரத்த வாந்தி"
+      ],
+      "keywords_mixed": [
+        "ratham nikkama poguthu",
+        "blood niraya varuthu",
+        "heavy bleeding"
+      ],
+      "structured_symptoms": [
+        "uncontrolled_bleeding",
+        "hematemesis_massive"
+      ]
+    },
+    {
+      "rule_id": "RF-006",
+      "version": "1.0",
+      "enabled": true,
+      "category": "anaphylaxis",
+      "severity": "urgent",
+      "action": "urgent",
+      "description": "Acute severe systemic allergic reaction or anaphylaxis",
+      "keywords_en": [
+        "anaphylaxis",
+        "anaphylactic shock",
+        "swelling of tongue and throat",
+        "cannot swallow and wheezing violently",
+        "severe allergic reaction closing airways"
+      ],
+      "keywords_ta": [
+        "நாக்கு மற்றும் தொண்டை வீக்கம்",
+        "ஒவ்வாமை அதிர்ச்சி"
+      ],
+      "keywords_mixed": [
+        "thondai veekkam",
+        "naakku veengiduchu",
+        "severe allergy breath mudiyala"
+      ],
+      "structured_symptoms": [
+        "anaphylaxis",
+        "acute_airway_swelling"
+      ]
+    },
+    {
+      "rule_id": "RF-007",
+      "version": "1.0",
+      "enabled": true,
+      "category": "consciousness",
+      "severity": "urgent",
+      "action": "urgent",
+      "description": "Acute loss of consciousness, unresponsive state, or sudden severe confusion",
+      "keywords_en": [
+        "unconscious",
+        "loss of consciousness",
+        "passed out and not waking",
+        "seizure lasting over 5 minutes",
+        "sudden complete confusion and delirium"
+      ],
+      "keywords_ta": [
+        "மயக்கம் அடைந்து எழவில்லை",
+        "நினைவிழப்பு",
+        "வலிப்பு நிற்கவில்லை"
+      ],
+      "keywords_mixed": [
+        "mayakkam pottu ezhala",
+        "unconscious aagitanga",
+        "seizure nikala"
+      ],
+      "structured_symptoms": [
+        "unresponsive",
+        "prolonged_seizure",
+        "acute_delirium"
+      ]
+    }
+  ]
+}

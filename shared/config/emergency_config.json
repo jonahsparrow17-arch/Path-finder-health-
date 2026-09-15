@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-09-15T00:00:00Z",
+  "contacts": [
+    {
+      "id": "EMERGENCY-US-01",
+      "region": "North America",
+      "country": "United States",
+      "service_name": "Emergency Medical Services / Police / Fire",
+      "contact_information": "911",
+      "source": "FCC & US Dept of Transportation Official 911 Service",
+      "verified_at": "2026-09-01T00:00:00Z",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "EMERGENCY-US-02",
+      "region": "North America",
+      "country": "United States",
+      "service_name": "988 Suicide & Crisis Lifeline",
+      "contact_information": "988",
+      "source": "SAMHSA (Substance Abuse and Mental Health Services Administration)",
+      "verified_at": "2026-09-01T00:00:00Z",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "EMERGENCY-IN-01",
+      "region": "South Asia",
+      "country": "India (All States / Tamil Nadu)",
+      "service_name": "National Emergency Number (Unified Police, Fire, Ambulance)",
+      "contact_information": "112",
+      "source": "Ministry of Home Affairs, Government of India (ERSS)",
+      "verified_at": "2026-09-01T00:00:00Z",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "EMERGENCY-IN-02",
+      "region": "South Asia",
+      "country": "India (Tamil Nadu)",
+      "service_name": "Emergency Ambulance Service (GVK EMRI)",
+      "contact_information": "108",
+      "source": "Government of Tamil Nadu Health & Family Welfare Department",
+      "verified_at": "2026-09-01T00:00:00Z",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "EMERGENCY-IN-03",
+      "region": "South Asia",
+      "country": "India (Tamil Nadu)",
+      "service_name": "Tele-MANAS National Tele Mental Health Helpline",
+      "contact_information": "14416 / 1800-891-4416",
+      "source": "Ministry of Health & Family Welfare, Govt of India (NIMHANS)",
+      "verified_at": "2026-09-01T00:00:00Z",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "EMERGENCY-UK-01",
+      "region": "Europe",
+      "country": "United Kingdom",
+      "service_name": "Emergency Medical Services",
+      "contact_information": "999",
+      "source": "National Health Service (NHS UK)",
+      "verified_at": "2026-09-01T00:00:00Z",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "EMERGENCY-GLOBAL-01",
+      "region": "Global",
+      "country": "International",
+      "service_name": "International Emergency Satellite / Local Emergency Services",
+      "contact_information": "112",
+      "source": "ITU Standard Emergency Call Specification",
+      "verified_at": "2026-09-01T00:00:00Z",
+      "verification_status": "VERIFIED"
+    }
+  ]
+}

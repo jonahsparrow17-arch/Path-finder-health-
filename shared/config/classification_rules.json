@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "hash_algorithm": "SHA-256",
+  "last_updated": "2026-09-15T00:00:00Z",
+  "evidence_thresholds": {
+    "min_overall_coverage": 0.25,
+    "primary_dimension_threshold": 1.5,
+    "overlap_secondary_threshold": 1.2
+  },
+  "dimension_weights": {
+    "symptoms_present": 0.4,
+    "duration_specified": 0.2,
+    "severity_specified": 0.2,
+    "impact_specified": 0.2
+  },
+  "severity_weights": {
+    "none": 0.0,
+    "mild": 0.5,
+    "moderate": 1.0,
+    "severe": 1.5
+  },
+  "impact_weights": {
+    "none": 0.0,
+    "mild": 0.5,
+    "moderate": 1.0,
+    "severe_disruption": 1.5
+  },
+  "duration_weights": {
+    "less_than_1_week": 0.5,
+    "1_to_4_weeks": 1.0,
+    "1_to_6_months": 1.2,
+    "more_than_6_months": 1.4
+  },
+  "risk_rules": {
+    "high_criteria": {
+      "min_severity": "severe",
+      "min_impact": "severe_disruption"
+    },
+    "moderate_criteria": {
+      "min_severity": "moderate",
+      "min_impact": "moderate"
+    }
+  }
+}

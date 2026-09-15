@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-09-15T00:00:00Z",
+  "pathways": {
+    "PHYSICAL": {
+      "title_key": "nav_physical_title",
+      "subtitle_key": "nav_physical_subtitle",
+      "recommended_services": [
+        "Primary Care Physician / General Practitioner (PCP / GP)",
+        "Outpatient Community Health Clinic",
+        "Urgent Care Clinic (if symptoms are acute but not life-threatening)"
+      ],
+      "preparation_steps": [
+        "Record when the physical symptoms started and what makes them better or worse",
+        "List all existing over-the-counter supplements or previous medical history",
+        "Prepare 2-3 specific questions regarding your daily functional limitations"
+      ],
+      "disclaimer_key": "disclaimer_general"
+    },
+    "MENTAL": {
+      "title_key": "nav_mental_title",
+      "subtitle_key": "nav_mental_subtitle",
+      "recommended_services": [
+        "Licensed Mental Health Counselor or Clinical Psychologist",
+        "Psychiatrist (for clinical evaluation and comprehensive assessment)",
+        "Community Mental Health Center / Support Services",
+        "Telehealth Mental Health Counseling Platform"
+      ],
+      "preparation_steps": [
+        "Note any changes in sleep patterns, appetite, energy, or concentration",
+        "Identify key stressors or life events preceding these feelings",
+        "Consider asking a trusted friend or family member to support your appointment scheduling"
+      ],
+      "disclaimer_key": "disclaimer_general"
+    },
+    "OVERLAPPING": {
+      "title_key": "nav_overlapping_title",
+      "subtitle_key": "nav_overlapping_subtitle",
+      "recommended_services": [
+        "Primary Care Physician with Integrated Behavioral Health",
+        "Collaborative Care Team (Medical Practitioner + Psychological Counselor)",
+        "Comprehensive Outpatient Assessment Clinic"
+      ],
+      "preparation_steps": [
+        "Keep a combined physical and emotional symptom log for 3-5 days",
+        "Document whether emotional stress intensifies somatic physical discomfort",
+        "Bring a unified timeline to your primary care clinician for holistic review"
+      ],
+      "disclaimer_key": "disclaimer_general"
+    },
+    "INSUFFICIENT_EVIDENCE": {
+      "title_key": "nav_insufficient_title",
+      "subtitle_key": "nav_insufficient_subtitle",
+      "recommended_services": [
+        "Primary Care Consultation / General Health Checkup",
+        "Registered Nurse Health Advice Line (e.g. 104 or local health line)",
+        "Community Pharmacist or Health Educator for baseline inquiries"
+      ],
+      "preparation_steps": [
+        "Maintain a daily log noting when symptoms occur, their intensity, and duration",
+        "Observe if symptoms relate to meals, sleep, physical exertion, or stress",
+        "Return to screening when you have tracked specific details over several days"
+      ],
+      "disclaimer_key": "disclaimer_general"
+    },
+    "URGENT": {
+      "title_key": "nav_urgent_title",
+      "subtitle_key": "nav_urgent_subtitle",
+      "recommended_services": [
+        "Emergency Medical Services (Call 911 / 112 / 108 immediately)",
+        "Nearest Hospital Emergency Department",
+        "24/7 Crisis Support Lifeline (Call or text 988 or 14416)"
+      ],
+      "preparation_steps": [
+        "Do not wait or drive yourself if you are feeling faint, confused, or severely ill",
+        "Notify someone nearby immediately of your situation",
+        "Keep your phone with you and stay in a safe, seated or lying position"
+      ],
+      "disclaimer_key": "disclaimer_urgent"
+    }
+  }
+}
